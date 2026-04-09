@@ -18,7 +18,7 @@ const RAISED_SPA_CHANNEL_WALL_OFFSET = 0.45; // inner face of channel wall sits 
 const RAISED_SPA_THRESHOLD_Z = 0.05; // 50mm above pool/ground
 const SPA_GROUND_CLIP_MARGIN_REDUCTION = 0.20; // shrink magenta XY clip by 100mm per active side
 const SPA_THROAT_ALONG_PAD = 0.12; // extend yellow throat clip 100mm+ past spa extents along the wall
-const SPA_THROAT_WIDTH_EXTRA = 0.10; // widen yellow throat clip by 100mm across the wall opening
+const SPA_THROAT_WIDTH_EXTRA = 0.05; // widen yellow throat clip by 100mm across the wall opening
 
 // Independent debug controls for the two throat void boxes shown in the scene.
 // Yellow = existing spa-top-referenced throat void.
